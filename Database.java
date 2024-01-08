@@ -20,13 +20,9 @@ try {
 
 Class.forName("org.postgresql.Driver");
 
-c = DriverManager.getConnection(
+c = DriverManager.getConnection() 
 
-"jdbc:postgresql://localhost:5432/usersdb",
-
-"postgres",
-
-"1qaz1qaz!QAZ!QAZ");
+//info removed for privacy 
 
 }
 
